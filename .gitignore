@@ -8,6 +8,7 @@
 
 # production
 /build
+/create-react-electron-app-example-*/
 
 # misc
 .DS_Store
