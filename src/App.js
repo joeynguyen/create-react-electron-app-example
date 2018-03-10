@@ -4,6 +4,9 @@ import './App.css';
 
 const electron = window.require('electron');
 const { ipcRenderer } = electron;
+// access the local file system; HOWEVER, `remote.require` is considered harmful
+// https://medium.com/@16cards/remote-require-is-considered-harmful-and-should-be-avoided-in-general-8282567a851
+// const fs = electron.remote.require('fs');
 
 class App extends Component {
   componentDidMount() {
