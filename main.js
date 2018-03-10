@@ -1,5 +1,15 @@
 const electron = require('electron')
 const electronIsDev = require('electron-is-dev');
+const ipcMain = require('electron').ipcMain;
+
+// Electron IPC example
+ipcMain.on('user-data', function(event, arg) {
+  console.log(arg);
+  //do child process or other data manipulation and name it manData
+  event.sender.send('manipulatedData', 'COOL info!');
+});
+
+
 // Module to control application life.
 const app = electron.app
 // Module to create native browser window.
