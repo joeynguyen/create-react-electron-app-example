@@ -16,6 +16,8 @@ Last but not least, a great thanks to [Christian Sepulveda](https://medium.freec
 ## Instructions
 
 ### Initial Setup
+Install Yarn if you don't already have it - [instructions](https://yarnpkg.com/lang/en/docs/install/).
+
 Initialize your project using create-react-app
 ```
 npx create-react-app my-app
