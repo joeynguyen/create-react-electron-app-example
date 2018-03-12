@@ -32,7 +32,7 @@ yarn add electron electron-is-dev
 yarn add --dev concurrently electron-packager wait-on
 ```
 
-Create a `main.js` file in the root of your repo and copy/paste the contents from this repo's [main.js](blob/master/main.js).
+Create a `main.js` file in the root of your repo and copy/paste the contents from this repo's [main.js](main.js).
 
 In your package.json, add these two lines in the root object to this:
 ```
