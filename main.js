@@ -1,4 +1,4 @@
-const electron = require('electron')
+const electron = require('electron');
 const electronIsDev = require('electron-is-dev');
 const ipcMain = require('electron').ipcMain;
 

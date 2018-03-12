@@ -28,8 +28,8 @@ npm start
 ### Integrating with Electron
 Install dependencies for Electron
 ```
-yarn add electron electron-is-dev
-yarn add --dev concurrently electron-packager wait-on
+yarn add electron
+yarn add --dev concurrently electron-packager wait-on electron-is-dev
 ```
 
 Create a `main.js` file in the root of your repo and copy/paste the contents from this repo's [main.js](main.js).
