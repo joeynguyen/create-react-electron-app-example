@@ -6,7 +6,6 @@
   "homepage": "./",
   "main": "main.js",
   "dependencies": {
-    "electron-is-dev": "0.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
@@ -23,7 +22,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "react-start": "BROWSER=none react-scripts start",
-    "electron-start": "electron .",
+    "electron-start": "ELECTRON_IS_DEV=1 electron .",
     "react-build": "react-scripts build",
     "electron-build": "electron-packager ./ --overwrite"
   }
