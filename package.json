@@ -6,14 +6,14 @@
   "homepage": "./",
   "main": "main.js",
   "dependencies": {
-    "electron": "1.8.3",
+    "electron-is-dev": "0.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1"
   },
   "devDependencies": {
     "concurrently": "3.5.1",
-    "electron-is-dev": "0.3.0",
+    "electron": "1.8.3",
     "electron-packager": "11.1.0",
     "wait-on": "2.1.0"
   },
